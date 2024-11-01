@@ -1,0 +1,223 @@
+.logo 
+{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+img
+{
+  align-content: center;
+}
+A{
+  text-decoration: none;
+}
+body
+{
+  background-attachment: scroll;
+  background-size: cover;
+}
+.colums
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #f62193;
+  display: block;
+  width: 25%;
+}
+.colums botton
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.1em 1em;
+  margin: 0em 0 0 0;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #aec cd4;
+  outline: none;
+  border: none;
+  background: #d696be;
+}
+.narbar-menu a
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  color: rgb(83,5,23);
+  font-size: medium;
+  padding: .3em 2em;
+  margin: 0.5em 0 0 0;
+  border-radius: 6px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #9cdaf3;
+  outline: none;
+  border: none;
+  background: #022a52;
+}
+.buttons
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  color: #3b0b0b
+}
+.card
+{
+  /* color 187,38,38*/
+  border-radius: 6px;
+  background: #80aff1;
+}
+.alta
+{
+  border-radius: 6px;
+  color: #9cdaf3;
+  background: #5f3258;
+}
+.enCarito
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+  color: #9cdaf3;
+  background: #707ab3;
+}
+.field input
+{
+width: 220px;
+display: inline-block;
+text-align: center;
+border-radius: 6px;
+background: #0B4C5F;
+padding: 1em 2em;
+outline: none;
+border: none;
+color: rgb(212, 243, 255);
+transition: 0.5s ease-in-out;
+}
+.field textarea{
+  width: 220px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+  background:#0B4C5F;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: rgb(212, 243, 255);
+  transition: 0.5s ease-out;
+}
+.control input[type="file"] {
+  background: #cfeaf1;
+  border-radius: 6px;
+  padding: 1em 2em;
+}
+
+.control input[type="submit"] {
+  background: #40194d;
+  border-radius: 4px;
+  padding: 1em 2em;
+  color: #cfeaf1;
+}
+
+.container a {
+  background: #cfeaf1;
+  border-radius: 6px;
+  padding: 1em 2em;
+}
+
+.control a {
+  color: #ccf2fc;
+  background: #2f2049;
+  border-radius: 6px;
+  padding: 0.5em 1em; /* Cambia el tamaño de padding si es necesario */
+  text-align: center;
+  display: inline-block; /* Asegura que se muestre como un botón */
+  font-size: 1em; /* Ajusta el tamaño del texto si es necesario */
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3B0B0B;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1c045d;
+}
+
+.container h1[class="title"] {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #221e47;
+}
+
+.principal {
+  border-radius: 6px;
+  padding: 1em 2em;
+  background: #dafaa6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-content {
+  border-radius: 6px;
+  padding: .5em .5em;
+  background: #dafaa6;
+  display: grid;
+  justify-content: center;
+}
+
+.continuar a {
+  background: #cfeaf1;
+  border-radius: 6px;
+  padding: .5em 1em;
+}
+.colum {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #53042a;
+  font-size: 16px; /* Esta propiedad sobrescribe la anterior */
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1em 10px;
+  display: inline-table;
+}
+
+table td {
+  padding: 1em 1.3em;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.QuitarCar, .Agregar {
+  background: #023f57;
+  color: beige;
+  width: 150px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: medium;
+}
+.QuitarCar:hover, .Agregar:hover {
+  background: #C2DEDC;
+}
+
+.registro {
+  /* width: 40%; */ /* Este estilo está comentado */
+  background: #cfeaf1;
+  margin: 10px;
+  padding: 5px;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+  }
+  
+  label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  }
